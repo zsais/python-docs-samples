@@ -88,7 +88,7 @@ jobs:
           name: 'helloworld'
           runtime: 'python38'
           region: ${{ env.REGION }}
-          entrypoint: 'hello_get'
+          entry_point: 'hello_get'
           source_dir: 'functions/helloworld'
 
       # - name: Deploy to Cloud Run
