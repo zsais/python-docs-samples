@@ -16,5 +16,5 @@ jobs:
     - id: 'deploy'
       uses: 'google-github-actions/deploy-cloud-functions@v1'
       with:
-        name: 'my-function'
+        name: 'hello-world-function'
         runtime: 'python38'
