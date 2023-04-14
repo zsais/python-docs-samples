@@ -86,7 +86,7 @@ jobs:
         uses: 'google-github-actions/deploy-cloud-functions@v1'
         with:
           name: 'helloworld'
-          runtime: 'python38'
+          runtime: 'python311'
           region: ${{ env.REGION }}
           entry_point: 'hello_get'
           source_dir: 'functions/helloworld'
